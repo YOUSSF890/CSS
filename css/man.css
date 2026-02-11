@@ -11,3 +11,8 @@ p {
 #my {
     color: blueviolet;
 }
+
+div {
+    background-color: red;
+    padding: 10px 20px;
+}
