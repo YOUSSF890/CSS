@@ -20,3 +20,92 @@ h2 {
 }
 
 */
+/* ////////////////////////2 */
+/*
+
+<!-- External -->
+هذه الطريقة تربط ملف CSS خارجي بالصفحة.
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- Internal -->
+🔹 نكتب CSS داخل وسم <style> داخل صفحة HTML نفسها.
+🔹 هنا نقول: أي عنصر <p> يكون لونه أحمر.
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- Inline -->
+🔹 نكتب CSS داخل نفس الوسم باستخدام style.
+🔹 هنا جعلنا لون النص أزرق.
+<p style="color: blue;">This Is Our Paragraph</p>
+
+
+📌 ملخص سريع
+
+Inline أقوى شيء
+
+ثم ID
+
+ثم Class
+
+ثم Element
+
+لو نفس القوة → الأخير يفوز
+
+!important يتفوق على الجميع
+
+*/
+
+/* في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم*/
+
+/*
+valid
+._user-name {
+}
+
+valid
+.-user-name {
+}
+
+not valid
+.1user-name {
+}
+
+not valid
+.@user-name {
+}
+
+not valid
+.user@name {
+}
+
+valid
+._user10name {
+}
+
+vlaid
+.u {
+}
+*/
+
+/* Not Best Practice */
+/* .USERNAME {
+} */
+
+/* Not Best Practice */
+/* .UserName {
+} */
+
+/* Best Practice */
+/* .user-name {
+} */
+
+/* Best Practice */
+/* .userName {
+} */
+
+/* Not Best Practice */
+/* .usernameprofile {
+} */
