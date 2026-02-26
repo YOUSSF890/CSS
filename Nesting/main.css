@@ -1,0 +1,21 @@
+
+
+div p {
+    color: red;
+}
+
+p {
+    color: aqua;
+}
+
+div h2 {
+    color: blue;
+}
+
+.youssef {
+    color:blueviolet;
+}
+
+div .youssef {
+    color:bisque;
+}

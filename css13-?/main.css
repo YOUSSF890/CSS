@@ -1,0 +1,31 @@
+.one {
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.tree {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.forst {
+    border-bottom: 2px solid green;
+    color: green;
+}
+
+.youssef {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.one,
+.tree,
+.forst,
+.youssef {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+
+
+
