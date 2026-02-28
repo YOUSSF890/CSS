@@ -1,0 +1,11 @@
+div {
+    background-color: #f9f9f9;
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+    /* direction: ltr;  left to right  */
+    direction: rtl;/* right to left   */
+    vertical-align: top;
+    vertical-align: middle;
+    vertical-align: bottom;
+}
