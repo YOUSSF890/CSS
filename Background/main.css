@@ -1,0 +1,46 @@
+
+.color {
+    background-color: aqua; /* color Name */
+    background-color: rgb(200, 0, 0, 0.2); /* Red Greed Blue / Alpha Channel */
+    background-color: #FF0000; /* color Hex code */
+}
+
+.imags {
+    color: aqua;
+    /* ////////////////////     background-color    /////////////////////////////////*/
+
+    background-color: #FF0000;
+
+    /* ////////////////////     background-image    /////////////////////////////////*/
+
+    background-image: url("Screenshot\ 2025-12-13\ at\ 12.38.28\ PM.png");
+
+    /* ////////////////////     background-repeat    /////////////////////////////////*/
+
+    background-repeat: repeat; /*Image duplication*/
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    /* ////////////////////     background-attachment    /////////////////////////////////*/
+    
+    background-attachment: scroll; /* This means the background moves with the page normally. */
+    background-attachment: fixed; /* background stays in the same place */
+
+    /* ////////////////////     background-position    /////////////////////////////////*/
+    /*  It decides where the background image appears inside the element.  */
+    /* background-position: right center; /*position in Name */
+    background-position: right bottom;
+    background-position: right top;
+    background-position: center center;
+    background-position: 100% 60%; /*position in % */
+    background-position: 400px 100px; /*position in px */
+
+    /* ////////////////////     background-position    /////////////////////////////////*/
+
+    background-size: auto; /*  */
+    background-size: cover; /*  */
+    background-size: contain; /*  */
+    background-size: 1000px 800px; /*  */
+    background-size: 20% 40%; /*  */
+}
