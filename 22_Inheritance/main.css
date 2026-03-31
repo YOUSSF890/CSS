@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font of the page. If Arial is not available, it uses Helvetica, otherwise a default sans-serif font. */
+}
+
+div {
+    text-align: center; /* Centers the text inside the div. */
+    padding: 20px; /* Adds 20px space inside the div around the content */
+    background-color: #eee; /* Sets a light gray background */
+    font-size: 20px; /* Makes the text size 20px */
+    border: 2px solid blue; /* Adds a blue border with thickness 2px */
+}
+
+div p {
+    border: 2px solid; /* Adds a 2px solid border to the p element */
+    border-color: inherit; /* The p takes the same border color as the parent div (blue) */
+    padding: inherit; /* The p uses the same padding value as the parent div (20px) */
+}
