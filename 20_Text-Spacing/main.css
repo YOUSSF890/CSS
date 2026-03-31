@@ -1,0 +1,11 @@
+
+
+div {
+    background-color: #f9f9f9; /* Sets the background color of the div to a very light gray */
+    letter-spacing: 3px; /* Adds 3px space between each letter */
+    text-indent: 210px; /* Moves the first line of the text 210px to the right */
+    line-height: 2.1; /* Increases the space between lines of text (2.1 times the font size). */
+    word-spacing: 5px; /* Adds 5px space between words. */
+    width: 600px; /* Sets the width of the div to 600 pixels */
+    word-break: break-all; /* Allows long words to break anywhere so they fit inside the div. */
+}

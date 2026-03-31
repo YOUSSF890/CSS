@@ -1,0 +1,12 @@
+div {
+    background-color: aqua; /* Sets the background color of the div to aqua. */
+    padding: 10px; /* Adds 10px space inside the div between the border and the text. */
+    width: 200px; /* Sets the div width to 200 pixels */
+    white-space: nowrap; /* Prevents the text from moving to the next line */
+    overflow: hidden; /* Hides any text that goes outside the div */
+    text-overflow: ellipsis; /* Shows ... when the text is too long to fit. */
+}
+
+div:hover { /* Applies the style when the mouse is over the div */
+    overflow: visible; /* The hidden text becomes visible outside the div. */
+}
