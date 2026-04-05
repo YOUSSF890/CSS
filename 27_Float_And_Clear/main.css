@@ -1,0 +1,24 @@
+/*
+    Float
+    clear
+*/
+
+.parent {
+    background-color: red; /* Makes the background color red */
+    padding: 10px; /* Adds 10px space inside the element between the border and the content */
+    /* overflow: hidden; */  /* If used, it fixes problems caused by float elements inside the parent */
+}
+
+.parent div { /* Selects every div inside .parent */
+    padding-top: 10px; /* Adds 10px space at the top inside the div. */
+    padding-bottom: 10px; /* Adds 10px space at the bottom inside the div. */
+    text-align: center; /* Centers the text horizontally. */
+    background-color: aqua; 
+    /* display: inline-block; Makes the div inline but still allow width and height */
+    width: 25%; /* Sets the width to 25% of the parent width. */
+    float: left;  /* If used, the div floats to the left side. */
+}
+
+.clear {
+    clear: both; /* Stops floating elements from appearing beside this element. */
+}

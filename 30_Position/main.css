@@ -1,0 +1,40 @@
+
+/* + position
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+
+
+body {
+    min-height: 5000px; /* Makes the page very tall, so you can scroll down. */
+}
+
+div {
+    color: white; /* Text color becomes white. */
+    width: 100px; /* Div is 100 pixels wide */
+    padding: 10px; /* Adds 10px space inside the div around text. */
+}
+
+.one {
+    background-color: red;
+    /* position: static; */ /* normal flow */
+    /* position: relative; */ /* You can move it with top, left, bottom, right, but other elements do not move around it */
+    /* position: absolute; */
+    position: fixed; /* The div stays in the same place on screen even when you scroll. */
+    bottom: 0px; /* Positioned 0px from the bottom of the viewport. */
+    right: 100px; /* Positioned 100px from the right of the viewport */
+}
+
+.tow {
+    background-color: green;
+}
+
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: blueviolet;
+    position: absolute; /* Positioned relative to nearest parent that has position or the body if none exists. */
+}

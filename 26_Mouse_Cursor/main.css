@@ -1,0 +1,12 @@
+
+.test {
+    cursor: grab; /* Changes the mouse cursor to a hand that looks like it can grab something (used for draggable items) */
+}
+
+.test1 {
+    cursor: move; /* Shows a move cursor (arrows in four directions) to indicate the element can be moved. */
+}
+
+.test2 {
+    cursor:cell; /* Shows a cross cursor, usually used in tables or spreadsheet cells. */
+}

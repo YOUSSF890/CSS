@@ -1,0 +1,31 @@
+
+
+
+.parent {
+    margin: 0; /* Removes all outer space around the parent element */
+}
+
+.parent div { /* Selects every div inside .parent */
+    padding-top: 10px; /* Adds 10px space at the top inside the div. */
+    padding-bottom: 10px; /* Adds 10px space at the bottom inside the div. */
+    text-align: center; /* Centers the text horizontally. */
+    background-color: aqua; 
+    width: calc(90% / 4); /* CSS function used to calculate values */
+    float:left;  /* If used, the div floats to the left side. */
+    margin-left: 2%; /* Adds 2% space on the left side of each div.  */  /* 2 * (4 + 1) = 10 ==> 100 - 10 = 90%  */
+}
+
+
+/*
+    callcel in pxle
+    4 * 15px = 90px ==> 100% -90px == ?;
+    .parent div { 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    text-align: center;
+    background-color: aqua; 
+    width: calc(100% - 90px / 4);
+    float:left;
+    margin-left: 15px;
+    }
+*/

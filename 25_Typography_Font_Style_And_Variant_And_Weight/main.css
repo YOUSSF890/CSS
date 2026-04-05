@@ -1,0 +1,13 @@
+
+
+div {
+    /* font-style: italic; */ /* If used, the text inside the div becomes italic (slanted). */
+    /* font-style: normal; */ /* Keeps the text normal (not italic) */
+    /* font-variant: small-caps; */ /* If used, lowercase letters become small capital letters */
+    font-weight: 900;
+    /* font-weight: normal; */
+}
+
+p {
+    text-transform: uppercase;
+}
