@@ -1,0 +1,29 @@
+
+
+body { /* selects the whole page.*/
+    min-height: 5000px; /* Makes the page very tall, so you can scroll down. */
+}
+
+div {
+    color: white; /* Text color becomes white. */
+    width: 100px; /* Div is 100 pixels wide */
+    padding: 10px; /* Adds 10px space inside the div around text. */
+    position: absolute; /* the div is positioned manually using top, left, etc., relative to the nearest positioned parent (or the page). */
+}
+
+.one {
+    background-color: red;
+    left: 20px;
+    top: 20px;
+    z-index: 3; /* controls stack order. This element appears above elements with lower z-index */
+}
+
+.tow {
+    background-color: green;
+    left: 15px;
+    top: 15px;
+}
+
+.three {
+    background-color: blue;
+}

@@ -1,0 +1,10 @@
+
+.you ,
+.you1{ /* */
+    list-style-type: disclosure-closed; /* Changes the bullet style of list items. */
+    /* it would use an image as the bullet for the list. */
+    /* list-style-image: url("../8_Background/Screenshot\ 2025-12-13\ at\ 12.38.28\ PM.png"); */
+    list-style: none; /* Removes all list bullets or numbers. // This also cancels list-style-type. */
+    padding-left: 0px; /* Removes the left space inside the list. */
+    margin: 0; /* Removes the outside space around the element. */
+} 

@@ -1,0 +1,35 @@
+/*
+    psoudo elements
+*/
+
+.one span {
+    display: inline-block; /* Makes the span behave like inline but allows width and height. */
+    background-color: red;
+    font-size: 20px; /* Sets the text size to 20 pixels. */
+    color: aqua;
+    font-weight: bold; /* Makes the letter bold. */
+}
+
+.tow::first-letter { /* Selects the first letter inside the element with class tow. */
+    display: inline-block;
+    background-color: red;
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.three::first-line { /* Selects the first line of text inside elements with class three. */
+    display: inline-block;
+    background-color: red;
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.tow::selection {
+    background-color: blueviolet;
+}
+
+::selection { /* Targets any selected text in the whole page. */
+    background-color: green;
+}

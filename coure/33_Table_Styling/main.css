@@ -1,0 +1,22 @@
+
+
+table {
+    width: 100%;
+    border: 2px solid #2f2c2c; 
+    border-spacing: 0px;
+}
+
+table td{
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 1px solid #7b7474; 
+
+}
+
+table thead td {
+    background-color:rgb(172, 242, 219);
+    color: rgb(29, 123, 205);
+    font-weight: bold;
+    text-align: center;
+    border-color: rgb(134, 229, 201);
+} 

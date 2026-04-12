@@ -1,0 +1,16 @@
+
+/* Red */
+.parent .child .title {
+    color: red;
+}
+
+/* Blue */
+.parent > .title {
+    color: blue;
+}
+
+/* Green */
+.parent p,
+.title {
+    color: green;
+}

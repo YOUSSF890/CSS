@@ -1,0 +1,50 @@
+.parent {
+    margin-bottom: 20px; /* يضيف مسافة 20px أسفل العنصر */
+    overflow: hidden; /* يمنع العناصر التي تستخدم float من الخروج خارج الصندوق */
+    counter-increment: member-content; /* يزيد قيمة العداد member-content لكل عنصر */
+}
+
+.one {
+    background-color: #eee; /* يجعل خلفية العنصر رمادي فاتح */
+    position: relative; /* يجعل العناصر ذات position:absolute تتموضع بالنسبة لهذا العنصر */
+    padding: 10px; /* يضيف مسافة داخلية حول المحتوى */
+    width: 600px; /* يحدد عرض العنصر */
+    float: left; /* يجعل العنصر يطفو إلى اليسار */
+}
+
+.user {
+    background-color: #eee; /* يجعل الخلفية رمادي فاتح */
+    padding: 10px; /* يضيف مسافة داخلية */
+    width: 50px; /* عرض العنصر 50px */
+    margin-right: 20px; /* مسافة من الجهة اليمنى */
+    height: 55.5px; /* ارتفاع العنصر */
+    float: left; /* يجعل العنصر يطفو إلى اليسار */
+    font-size: 50px; /* يجعل حجم الخط كبير */
+    text-align: center; /* يضع النص في منتصف العنصر أفقياً */
+}
+
+hr {
+    margin: 20px 0; /* يضيف مسافة فوق وتحت الخط */
+}
+
+.one::before {
+    content: attr(data-text); /* يأخذ النص من الخاصية data-text في HTML */
+    display: none; /* يخفي العنصر الوهمي */
+}
+
+.one:hover::before {
+    display: block; /* يظهر النص عندما يمر الماوس فوق العنصر */
+}
+
+.one::after {
+    content: counter(member-content); /* يعرض رقم العداد */
+    color: aquamarine; /* لون النص */
+    background-color: black; /* لون الخلفية */
+    position: absolute; /* يحدد موقع العنصر بالنسبة للأب */
+    width: 10px; /* عرض العنصر */
+    right: -10px; /* يضعه خارج العنصر قليلاً من اليمين */
+    text-align: center; /* يضع النص في الوسط */
+    font-weight: bold; /* يجعل النص عريض */
+    top: 50%; /* يضعه في منتصف العنصر عمودياً */
+    margin-top: -10px; /* يحركه قليلاً للأعلى ليصبح في المنتصف */
+}
