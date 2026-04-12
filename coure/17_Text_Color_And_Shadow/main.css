@@ -8,6 +8,6 @@ Text Colour
 
 div {
     background-color: #f9f9f9;
-    /* color rebeccapurple; */
+    color :rebeccapurple;
     text-shadow: 1px 1px 3px red;
 }
