@@ -1,11 +1,22 @@
-
-
 div {
-    background-color: #f9f9f9; /* Sets the background color of the div to a very light gray */
-    letter-spacing: 3px; /* Adds 3px space between each letter */
-    text-indent: 210px; /* Moves the first line of the text 210px to the right */
-    line-height: 2.1; /* Increases the space between lines of text (2.1 times the font size). */
-    word-spacing: 5px; /* Adds 5px space between words. */
-    width: 600px; /* Sets the width of the div to 600 pixels */
-    word-break: break-all; /* Allows long words to break anywhere so they fit inside the div. */
+    background-color: #f9f9f9;  
+    /* EN: very light gray background | AR: خلفية رمادي فاتح جداً */
+
+    letter-spacing: 3px;       
+    /* EN: space between letters | AR: مسافة بين الحروف */
+
+    text-indent: 210px;        
+    /* EN: move first line to right | AR: إزاحة أول سطر إلى اليمين */
+
+    line-height: 2.1;          
+    /* EN: space between lines | AR: المسافة بين الأسطر */
+
+    word-spacing: 5px;         
+    /* EN: space between words | AR: مسافة بين الكلمات */
+
+    width: 600px;              
+    /* EN: div width | AR: عرض العنصر 600 بكسل */
+
+    word-break: break-all;     
+    /* EN: break long words anywhere | AR: كسر الكلمات الطويلة في أي مكان */
 }

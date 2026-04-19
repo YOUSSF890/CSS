@@ -1,14 +1,15 @@
-
-
 div {
-    color: aqua;
-    /* font-style: italic; /*If used, the text inside the div becomes italic (slanted). */
-    /* font-style: normal;  /* Keeps the text normal (not italic) */
-    /*font-variant: small-caps;  /* If used, lowercase letters become small capital letters */
-    font-weight: 900;
-    /* font-weight: normal; */
+    color: aqua;                        /* EN: text color aqua | AR: لون النص سماوي */
+
+    /* font-style: italic; */          /* EN: makes text slanted | AR: يجعل النص مائل */
+    /* font-style: normal; */          /* EN: normal text (no italic) | AR: نص عادي بدون ميلان */
+
+    /* font-variant: small-caps; */    /* EN: lowercase becomes small caps | AR: الحروف الصغيرة تصبح كبيرة بشكل صغير */
+
+    font-weight: 900;                  /* EN: very bold text | AR: خط عريض جداً */
+    /* font-weight: normal; */         /* EN: normal thickness | AR: سمك عادي */
 }
 
 p {
-    text-transform: uppercase;
+    text-transform: uppercase;         /* EN: all letters become capital | AR: تحويل كل الحروف إلى كبيرة */
 }

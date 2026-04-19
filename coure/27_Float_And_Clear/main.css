@@ -4,21 +4,24 @@
 */
 
 .parent {
-    background-color: red; /* Makes the background color red */
-    padding: 10px; /* Adds 10px space inside the element between the border and the content */
-    /* overflow: hidden; */  /* If used, it fixes problems caused by float elements inside the parent */
+    background-color: red;        /* EN: red background | AR: خلفية حمراء */
+    padding: 10px;               /* EN: space inside element | AR: مسافة داخلية */
+    /* overflow: hidden; */      /* EN: fixes float issues | AR: يحل مشاكل الـ float */
 }
 
-.parent div { /* Selects every div inside .parent */
-    padding-top: 10px; /* Adds 10px space at the top inside the div. */
-    padding-bottom: 10px; /* Adds 10px space at the bottom inside the div. */
-    text-align: center; /* Centers the text horizontally. */
-    background-color: aqua; 
-    /* display: inline-block; Makes the div inline but still allow width and height */
-    width: 25%; /* Sets the width to 25% of the parent width. */
-    float: left;  /* If used, the div floats to the left side. */
+.parent div {                   /* EN: all divs inside parent | AR: كل div داخل الأب */
+    padding-top: 10px;          /* EN: top inner space | AR: مسافة داخلية من الأعلى */
+    padding-bottom: 10px;       /* EN: bottom inner space | AR: مسافة داخلية من الأسفل */
+    text-align: center;         /* EN: center text | AR: توسيط النص */
+    background-color: aqua;     /* EN: aqua background | AR: خلفية سماوية */
+
+    /* display: inline-block; */ /* EN: inline but keeps size | AR: inline مع الحفاظ على الحجم */
+
+    width: 25%;                 /* EN: each box takes 25% | AR: كل عنصر يأخذ 25% */
+
+    float: left;                /* EN: place items side by side | AR: جعل العناصر بجانب بعضها */
 }
 
 .clear {
-    clear: both; /* Stops floating elements from appearing beside this element. */
+    clear: both;                /* EN: stop floating elements | AR: إيقاف تأثير float */
 }

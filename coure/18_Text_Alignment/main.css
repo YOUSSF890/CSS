@@ -1,11 +1,28 @@
 div {
-    background-color: #f9f9f9;
-    text-align: center;
-    /* text-align: left; */
-    /* text-align: right; */
-    /* direction: ltr;  left to right  */
-    direction: rtl;/* right to left   */
-    vertical-align: top;
-    vertical-align: middle;
-    vertical-align: bottom;
+    background-color: #f9f9f9;  
+    /* EN: light gray background | AR: خلفية رمادي فاتح */
+
+    text-align: center;        
+    /* EN: center text horizontally | AR: توسيط النص أفقياً */
+
+    /* text-align: left; */    
+    /* EN: align text to left | AR: محاذاة النص لليسار */
+
+    /* text-align: right; */   
+    /* EN: align text to right | AR: محاذاة النص لليمين */
+
+    /* direction: ltr; */      
+    /* EN: left to right text direction | AR: اتجاه النص من اليسار لليمين */
+
+    direction: rtl;           
+    /* EN: right to left text direction | AR: اتجاه النص من اليمين لليسار */
+
+    vertical-align: top;      
+    /* EN: align element to top (for inline/table cells) | AR: محاذاة للأعلى */
+
+    vertical-align: middle;   
+    /* EN: align to middle | AR: توسيط عمودي */
+
+    vertical-align: bottom;   
+    /* EN: align to bottom | AR: محاذاة للأسفل */
 }

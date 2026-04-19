@@ -1,31 +1,16 @@
-
-
-
 .parent {
-    margin: 0; /* Removes all outer space around the parent element */
+    margin: 0;                          /* EN: remove outer space | AR: إزالة الهوامش الخارجية */
 }
 
-.parent div { /* Selects every div inside .parent */
-    padding-top: 10px; /* Adds 10px space at the top inside the div. */
-    padding-bottom: 10px; /* Adds 10px space at the bottom inside the div. */
-    text-align: center; /* Centers the text horizontally. */
-    background-color: aqua; 
-    width: calc(90% / 4); /* CSS function used to calculate values */
-    float:left;  /* If used, the div floats to the left side. */
-    margin-left: 2%; /* Adds 2% space on the left side of each div.  */  /* 2 * (4 + 1) = 10 ==> 100 - 10 = 90%  */
+.parent div {                           /* EN: all divs inside .parent | AR: كل div داخل .parent */
+    padding-top: 10px;                  /* EN: space inside top | AR: مسافة داخلية من الأعلى */
+    padding-bottom: 10px;               /* EN: space inside bottom | AR: مسافة داخلية من الأسفل */
+    text-align: center;                 /* EN: center text | AR: توسيط النص */
+    background-color: aqua;             /* EN: aqua background | AR: خلفية سماوية */
+
+    width: calc(90% / 4);               /* EN: split 90% into 4 equal parts | AR: تقسيم 90% على 4 أجزاء */
+
+    float: left;                        /* EN: place elements side by side | AR: جعل العناصر بجانب بعضها */
+
+    margin-left: 2%;                    /* EN: space between elements | AR: مسافة بين العناصر */
 }
-
-
-/*
-    callcel in pxle
-    4 * 15px = 90px ==> 100% -90px == ?;
-    .parent div { 
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    text-align: center;
-    background-color: aqua; 
-    width: calc(100% - 90px / 4);
-    float:left;
-    margin-left: 15px;
-    }
-*/

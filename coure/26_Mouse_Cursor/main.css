@@ -1,12 +1,11 @@
-
 .test {
-    cursor: grab; /* Changes the mouse cursor to a hand that looks like it can grab something (used for draggable items) */
+    cursor: grab;     /* EN: hand cursor (grab) for dragging | AR: شكل يد للإمساك والسحب */
 }
 
 .test1 {
-    cursor: move; /* Shows a move cursor (arrows in four directions) to indicate the element can be moved. */
+    cursor: move;     /* EN: move arrows cursor | AR: سهم تحريك في كل الاتجاهات */
 }
 
 .test2 {
-    cursor:cell; /* Shows a cross cursor, usually used in tables or spreadsheet cells. */
+    cursor: cell;     /* EN: crosshair cursor for selecting cells | AR: شكل تحديد مثل الجداول */
 }

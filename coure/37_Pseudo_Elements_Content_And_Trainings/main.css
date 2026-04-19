@@ -1,50 +1,50 @@
 .parent {
-    margin-bottom: 20px; /* يضيف مسافة 20px أسفل العنصر */
-    overflow: hidden; /* يمنع العناصر التي تستخدم float من الخروج خارج الصندوق */
-    counter-increment: member-content; /* يزيد قيمة العداد member-content لكل عنصر */
+    margin-bottom: 20px;        /* EN: add 20px space below element | AR: يضيف مسافة 20 بكسل أسفل العنصر */
+    overflow: hidden;           /* EN: keeps floated elements inside the box | AR: يمنع عناصر float من الخروج خارج الصندوق */
+    counter-increment: member-content; /* EN: increase counter value for each element | AR: يزيد قيمة العداد لكل عنصر */
 }
 
 .one {
-    background-color: #eee; /* يجعل خلفية العنصر رمادي فاتح */
-    position: relative; /* يجعل العناصر ذات position:absolute تتموضع بالنسبة لهذا العنصر */
-    padding: 10px; /* يضيف مسافة داخلية حول المحتوى */
-    width: 600px; /* يحدد عرض العنصر */
-    float: left; /* يجعل العنصر يطفو إلى اليسار */
+    background-color: #eee;     /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    position: relative;         /* EN: absolute elements inside use this as reference | AR: العناصر المطلقة تتموضع بالنسبة لهذا العنصر */
+    padding: 10px;              /* EN: space inside the element | AR: مسافة داخلية حول المحتوى */
+    width: 600px;               /* EN: set width to 600px | AR: تحديد العرض 600 بكسل */
+    float: left;                /* EN: move element to the left | AR: يجعل العنصر يطفو إلى اليسار */
 }
 
 .user {
-    background-color: #eee; /* يجعل الخلفية رمادي فاتح */
-    padding: 10px; /* يضيف مسافة داخلية */
-    width: 50px; /* عرض العنصر 50px */
-    margin-right: 20px; /* مسافة من الجهة اليمنى */
-    height: 55.5px; /* ارتفاع العنصر */
-    float: left; /* يجعل العنصر يطفو إلى اليسار */
-    font-size: 50px; /* يجعل حجم الخط كبير */
-    text-align: center; /* يضع النص في منتصف العنصر أفقياً */
+    background-color: #eee;     /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    padding: 10px;              /* EN: space inside the element | AR: مسافة داخلية */
+    width: 50px;                /* EN: element width = 50px | AR: عرض العنصر 50 بكسل */
+    margin-right: 20px;         /* EN: space on the right side | AR: مسافة من الجهة اليمنى */
+    height: 55.5px;             /* EN: element height | AR: ارتفاع العنصر */
+    float: left;                /* EN: move element to the left | AR: يجعل العنصر يطفو إلى اليسار */
+    font-size: 50px;            /* EN: large text size | AR: حجم خط كبير */
+    text-align: center;         /* EN: center text horizontally | AR: توسيط النص أفقياً */
 }
 
 hr {
-    margin: 20px 0; /* يضيف مسافة فوق وتحت الخط */
+    margin: 20px 0;             /* EN: space above and below the line | AR: مسافة فوق وتحت الخط */
 }
 
 .one::before {
-    content: attr(data-text); /* يأخذ النص من الخاصية data-text في HTML */
-    display: none; /* يخفي العنصر الوهمي */
+    content: attr(data-text);   /* EN: get text from HTML attribute data-text | AR: يأخذ النص من الخاصية data-text في HTML */
+    display: none;              /* EN: hide the pseudo element | AR: إخفاء العنصر الوهمي */
 }
 
 .one:hover::before {
-    display: block; /* يظهر النص عندما يمر الماوس فوق العنصر */
+    display: block;             /* EN: show text when mouse is over element | AR: يظهر النص عند مرور الماوس */
 }
 
 .one::after {
-    content: counter(member-content); /* يعرض رقم العداد */
-    color: aquamarine; /* لون النص */
-    background-color: black; /* لون الخلفية */
-    position: absolute; /* يحدد موقع العنصر بالنسبة للأب */
-    width: 10px; /* عرض العنصر */
-    right: -10px; /* يضعه خارج العنصر قليلاً من اليمين */
-    text-align: center; /* يضع النص في الوسط */
-    font-weight: bold; /* يجعل النص عريض */
-    top: 50%; /* يضعه في منتصف العنصر عمودياً */
-    margin-top: -10px; /* يحركه قليلاً للأعلى ليصبح في المنتصف */
+    content: counter(member-content); /* EN: show the counter number | AR: يعرض رقم العداد */
+    color: aquamarine;          /* EN: text color | AR: لون النص */
+    background-color: black;    /* EN: background color | AR: لون الخلفية */
+    position: absolute;         /* EN: position relative to parent element | AR: يتموضع بالنسبة للعنصر الأب */
+    width: 10px;                /* EN: element width | AR: عرض العنصر */
+    right: -10px;               /* EN: place slightly outside on the right | AR: وضعه خارج العنصر قليلاً من اليمين */
+    text-align: center;         /* EN: center text horizontally | AR: توسيط النص */
+    font-weight: bold;          /* EN: make text bold | AR: جعل النص عريض */
+    top: 50%;                   /* EN: move element to middle vertically | AR: وضعه في منتصف العنصر عمودياً */
+    margin-top: -10px;          /* EN: adjust position upward | AR: تحريكه قليلاً للأعلى ليكون في المنتصف */
 }

@@ -1,57 +1,54 @@
-
-
 .one {
-    background-color: red;
-    color: white;
+    background-color: red;              /* EN: red background | AR: خلفية حمراء */
+    color: white;                       /* EN: white text color | AR: لون النص أبيض */
 }
 
 .tow {
-    background-color: #eee;
-    width: 100px;
-    height: 100px;
+    background-color: #eee;             /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    width: 100px;                       /* EN: width 100px | AR: العرض 100 بكسل */
+    height: 100px;                      /* EN: height 100px | AR: الارتفاع 100 بكسل */
 }
 
 p {
-    background-color: #eee;
-    width: 100px;
-    height: 100px;
+    background-color: #eee;             /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    width: 100px;                       /* EN: width 100px | AR: العرض 100 بكسل */
+    height: 100px;                      /* EN: height 100px | AR: الارتفاع 100 بكسل */
 }
 
-a { /* Selects all links. */
-    color: green;
-    text-decoration: none; /* Removes the underline from links. */
+a {                                     /* EN: select all links | AR: اختيار كل الروابط */
+    color: green;                       /* EN: link color green | AR: لون الرابط أخضر */
+    text-decoration: none;              /* EN: remove underline | AR: إزالة الخط تحت الرابط */
 }
 
-a:hover { /* Targets a link when the mouse is over it. */
-    color: red; /* Changes the link color to red on hover. */
+a:hover {                               /* EN: when mouse is over link | AR: عند مرور الماوس فوق الرابط */
+    color: red;                         /* EN: change color to red | AR: تغيير اللون إلى الأحمر */
 }
 
-
-.ch:checked + label{ /* Selects the label after a checked checkbox with class ch. */
-    color:red; /* Changes the label text color to red. */
+.ch:checked + label {                   /* EN: label right after checked checkbox | AR: اختيار الـ label بعد checkbox محدد */
+    color: red;                         /* EN: label text becomes red | AR: لون النص يصبح أحمر */
 }
 
-.ch:checked { /* Selects the checkbox when it is checked. */
-    display: none; /* Hides the checkbox from the page. */
+.ch:checked {                           /* EN: checked checkbox itself | AR: checkbox عندما يكون محدد */
+    display: none;                      /* EN: hide checkbox | AR: إخفاء مربع الاختيار */
 }
 
-a:visited { /* Targets links the user already visited. */
-    color:blueviolet; /* Changes the color to blue-violet. */
+a:visited {                             /* EN: visited links | AR: الروابط التي تم فتحها */
+    color: blueviolet;                  /* EN: change color after visit | AR: تغيير اللون بعد الزيارة */
 }
 
-:empty { /* Selects any element with no content. */
-    border: 10px solid red; /* Adds a 10px red border. */
+:empty {                                /* EN: any empty element | AR: أي عنصر فارغ */
+    border: 10px solid red;             /* EN: red border | AR: إطار أحمر */
 }
 
-div:empty { /* Selects empty div elements. */
-    border: 5px solid blue;
+div:empty {                             /* EN: empty div only | AR: div فارغ فقط */
+    border: 5px solid blue;             /* EN: blue border | AR: إطار أزرق */
 }
 
 .in {
-    border: 2px solid black;
+    border: 2px solid black;           /* EN: black border | AR: إطار أسود */
 }
 
-.in:focus { /* Targets the input when the user clicks or types in it. */
-    border-color: rgb(237, 12, 42); /* Changes the border color to red. */
-    outline: none; /* Removes the default focus outline from the browser. */
+.in:focus {                             /* EN: input when clicked or active | AR: input عند التركيز عليه */
+    border-color: rgb(237, 12, 42);     /* EN: change border to red | AR: تغيير اللون إلى الأحمر */
+    outline: none;                      /* EN: remove browser outline | AR: إزالة الإطار الافتراضي */
 }

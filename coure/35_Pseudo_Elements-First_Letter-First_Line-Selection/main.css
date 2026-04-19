@@ -1,35 +1,35 @@
 /*
-    psoudo elements
+    pseudo elements                     /* EN: special parts of elements | AR: أجزاء خاصة من العناصر */
 */
 
 .one span {
-    display: inline-block; /* Makes the span behave like inline but allows width and height. */
-    background-color: red;
-    font-size: 20px; /* Sets the text size to 20 pixels. */
-    color: aqua;
-    font-weight: bold; /* Makes the letter bold. */
+    display: inline-block;              /* EN: inline element but can have width/height | AR: عنصر inline لكن يمكن إعطاؤه عرض وارتفاع */
+    background-color: red;              /* EN: red background | AR: خلفية حمراء */
+    font-size: 20px;                    /* EN: text size 20px | AR: حجم الخط 20 بكسل */
+    color: aqua;                        /* EN: text color aqua | AR: لون النص سماوي */
+    font-weight: bold;                  /* EN: bold text | AR: يجعل النص عريض */
 }
 
-.tow::first-letter { /* Selects the first letter inside the element with class tow. */
-    display: inline-block;
-    background-color: red;
-    font-size: 20px;
-    color: aqua;
-    font-weight: bold;
+.tow::first-letter {                    /* EN: select first letter of element | AR: اختيار أول حرف من العنصر */
+    display: inline-block;              /* EN: allow width/height | AR: يسمح بتحديد العرض والارتفاع */
+    background-color: red;              /* EN: red background | AR: خلفية حمراء */
+    font-size: 20px;                    /* EN: text size 20px | AR: حجم الخط 20 بكسل */
+    color: aqua;                        /* EN: aqua text color | AR: لون النص سماوي */
+    font-weight: bold;                  /* EN: bold text | AR: يجعل النص عريض */
 }
 
-.three::first-line { /* Selects the first line of text inside elements with class three. */
-    display: inline-block;
-    background-color: red;
-    font-size: 20px;
-    color: aqua;
-    font-weight: bold;
+.three::first-line {                    /* EN: select first line of text | AR: اختيار أول سطر من النص */
+    display: inline-block;              /* EN: treat like inline-block | AR: يعامَل كعنصر inline-block */
+    background-color: red;              /* EN: red background | AR: خلفية حمراء */
+    font-size: 20px;                    /* EN: text size | AR: حجم الخط */
+    color: aqua;                        /* EN: aqua color | AR: لون سماوي */
+    font-weight: bold;                  /* EN: bold text | AR: نص عريض */
 }
 
-.tow::selection {
-    background-color: blueviolet;
+.tow::selection {                       /* EN: selected text inside .tow | AR: النص المحدد داخل العنصر tow */
+    background-color: blueviolet;       /* EN: purple selection color | AR: لون التحديد بنفسجي */
 }
 
-::selection { /* Targets any selected text in the whole page. */
-    background-color: green;
+::selection {                           /* EN: selected text anywhere on page | AR: النص المحدد في الصفحة كلها */
+    background-color: green;            /* EN: selection background green | AR: خلفية التحديد خضراء */
 }

@@ -1,4 +1,3 @@
-
 /* + position
     static
     relative
@@ -7,34 +6,35 @@
     sticky
 */
 
-
 body {
-    min-height: 5000px; /* Makes the page very tall, so you can scroll down. */
+    min-height: 5000px;              /* EN: makes page tall for scrolling | AR: يجعل الصفحة طويلة للتمرير */
 }
 
 div {
-    color: white; /* Text color becomes white. */
-    width: 100px; /* Div is 100 pixels wide */
-    padding: 10px; /* Adds 10px space inside the div around text. */
+    color: white;                    /* EN: text color white | AR: لون النص أبيض */
+    width: 100px;                   /* EN: width 100px | AR: العرض 100 بكسل */
+    padding: 10px;                  /* EN: space inside element | AR: مسافة داخل العنصر */
 }
 
 .one {
-    background-color: red;
-    /* position: static; */ /* normal flow */
-    /* position: relative; */ /* You can move it with top, left, bottom, right, but other elements do not move around it */
-    /* position: absolute; */
-    position: fixed; /* The div stays in the same place on screen even when you scroll. */
-    bottom: 0px; /* Positioned 0px from the bottom of the viewport. */
-    right: 100px; /* Positioned 100px from the right of the viewport */
+    background-color: red;          /* EN: red background | AR: خلفية حمراء */
+
+    /* position: static; */         /* EN: normal flow | AR: الوضع الطبيعي */
+    /* position: relative; */       /* EN: can move but keeps space | AR: يمكن تحريكه مع بقاء مكانه */
+    /* position: absolute; */       /* EN: positioned inside parent or page | AR: يتموضع داخل الأب أو الصفحة */
+
+    position: fixed;               /* EN: stays on screen during scroll | AR: يبقى ثابت أثناء التمرير */
+    bottom: 0px;                   /* EN: 0px from bottom of screen | AR: 0 بكسل من أسفل الشاشة */
+    right: 100px;                  /* EN: 100px from right side | AR: 100 بكسل من اليمين */
 }
 
 .tow {
-    background-color: green;
+    background-color: green;        /* EN: green background | AR: خلفية خضراء */
 }
 
 .parent {
-    width: 500px;
-    height: 300px;
-    background-color: blueviolet;
-    position: absolute; /* Positioned relative to nearest parent that has position or the body if none exists. */
+    width: 500px;                  /* EN: width 500px | AR: العرض 500 بكسل */
+    height: 300px;                 /* EN: height 300px | AR: الارتفاع 300 بكسل */
+    background-color: blueviolet; /* EN: purple background | AR: خلفية بنفسجية */
+    position: absolute;           /* EN: positioned relative to page or nearest positioned parent | AR: يتموضع بالنسبة للأب أو الصفحة */
 }

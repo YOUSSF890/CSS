@@ -1,21 +1,24 @@
-
-
 div p {
-    color: red;
+    color: red;      
+    /* EN: p inside div becomes red | AR: أي p داخل div يصبح أحمر */
 }
 
 p {
-    color: aqua;
+    color: aqua;     
+    /* EN: all p elements are aqua | AR: كل عناصر p لونها سماوي */
 }
 
 div h2 {
-    color: blue;
+    color: blue;     
+    /* EN: h2 inside div becomes blue | AR: h2 داخل div يصبح أزرق */
 }
 
 .youssef {
-    color:blueviolet;
+    color: blueviolet; 
+    /* EN: class youssef is purple | AR: الكلاس youssef لونه بنفسجي */
 }
 
 div .youssef {
-    color:bisque;
+    color: bisque;    
+    /* EN: youssef inside div becomes bisque | AR: youssef داخل div يصبح بيج فاتح */
 }

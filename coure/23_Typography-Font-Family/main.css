@@ -1,15 +1,17 @@
-
-
-.with-ser{
-    font-family: 'Times New Roman', Times, serif; /* Uses a serif font. If Times New Roman is not available, it uses Times, otherwise another serif font  */
+.with-ser {
+    font-family: 'Times New Roman', Times, serif;  
+    /* EN: serif font (has small strokes) | AR: خط serif فيه زوائد صغيرة */
 }
 
-.san-ser{
-    font-family: Arial, Helvetica, sans-serif;
+.san-ser {
+    font-family: Arial, Helvetica, sans-serif;      
+    /* EN: sans-serif font (clean, no strokes) | AR: خط بدون زوائد */
 }
 
 .with-ser,
-.san-ser{
-    background-color: antiquewhite;
-    padding: 11px;
+.san-ser {
+    background-color: antiquewhite;                 
+    /* EN: light beige background | AR: خلفية بيج فاتحة */
+    padding: 11px;                                  
+    /* EN: space inside element | AR: مسافة داخلية */
 }

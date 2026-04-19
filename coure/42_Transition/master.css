@@ -1,0 +1,30 @@
+* {                                   /* EN: select all elements | AR: اختيار جميع العناصر */
+  -webkit-box-sizing: border-box;     /* EN: old support for Chrome/Safari | AR: دعم قديم لمتصفح كروم وسفاري */
+  -moz-box-sizing: border-box;        /* EN: old support for Firefox | AR: دعم قديم لمتصفح فايرفوكس */
+  box-sizing: border-box;             /* EN: width includes padding and border | AR: العرض يشمل الحشو والحدود */
+}
+
+.one {                                 /* EN: element with class one | AR: عنصر يحمل الكلاس one */
+  background-color: #EEE;              /* EN: light gray background | AR: خلفية رمادية فاتحة */
+  width: 200px;                        /* EN: width is 200px | AR: العرض 200 بكسل */
+  height: 100px;                       /* EN: height is 100px | AR: الارتفاع 100 بكسل */
+
+  transition-duration: 1s;             /* EN: animation time 1 second | AR: مدة الحركة ثانية واحدة */
+  transition-delay: 0.2s;              /* EN: wait 0.2s before animation | AR: انتظار 0.2 ثانية قبل بدء الحركة */
+
+  /* transition-property: all; */      /* EN: animate all properties | AR: تحريك جميع الخصائص */
+  /* transition-property: margin-top, margin-left; */ /* EN: animate margins only | AR: تحريك الهوامش فقط */
+
+  transition-property: width;          /* EN: animate width only | AR: تحريك العرض فقط */
+
+  /* transition-timing-function: ease-in-out; */ /* EN: slow start and end | AR: بداية ونهاية بطيئة */
+
+  transition: all 2s 0.5s linear;     /* EN: shorthand for transition settings | AR: كتابة مختصرة لإعدادات الحركة */
+}
+
+.one:hover {                           /* EN: when mouse is over element | AR: عند مرور الماوس فوق العنصر */
+  margin-left: 20px;                   /* EN: move element right | AR: تحريك العنصر إلى اليمين */
+  margin-top: 20px;                    /* EN: move element down | AR: تحريك العنصر إلى الأسفل */
+  width: 280px;                        /* EN: increase width to 280px | AR: زيادة العرض إلى 280 بكسل */
+  /* height: 120px; */                 /* EN: increase height (commented) | AR: زيادة الارتفاع (معلق) */
+}

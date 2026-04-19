@@ -1,0 +1,23 @@
+/* * {                                  */ /* EN: select all elements (commented) | AR: اختيار جميع العناصر (معلق) */
+/*   -webkit-box-sizing: border-box;    */ /* EN: old support for Chrome/Safari | AR: دعم قديم لمتصفح كروم وسفاري */
+/*   -moz-box-sizing: border-box;       */ /* EN: old support for Firefox | AR: دعم قديم لمتصفح فايرفوكس */
+/*   box-sizing: border-box;            */ /* EN: width includes padding and border | AR: العرض يشمل الحشو والحدود */
+/* }                                    */ /* EN: end of rule | AR: نهاية القاعدة */
+
+.parent {                                /* EN: element with class parent | AR: عنصر يحمل الكلاس parent */
+  width: 600px;                          /* EN: width = 600px | AR: العرض 600 بكسل */
+  overflow: hidden;                      /* EN: hide overflow and fix float layout | AR: إخفاء الزائد ومعالجة مشكلة float */
+  margin: 20px auto;                     /* EN: 20px top/bottom and center horizontally | AR: 20 بكسل أعلى وأسفل وتوسيط أفقي */
+  padding: 20px;                         /* EN: space inside the element | AR: مسافة داخل العنصر */
+  background-color: #ddd;                /* EN: light gray background | AR: خلفية رمادية فاتحة */
+}
+
+.one {                                   /* EN: element with class one | AR: عنصر يحمل الكلاس one */
+  background-color: #eee;                /* EN: light gray background | AR: خلفية رمادية فاتحة */
+  width: 300px;                          /* EN: width = 300px | AR: العرض 300 بكسل */
+  float: left;                           /* EN: move element to the left | AR: جعل العنصر يطفو إلى اليسار */
+  padding: 10px;                         /* EN: space inside element | AR: مسافة داخل العنصر */
+  border: 10px solid red;                /* EN: red border with 10px size | AR: إطار أحمر حجمه 10 بكسل */
+  /* box-sizing: content-box; */         /* EN: width excludes padding and border | AR: العرض لا يشمل الحشو والحدود */
+  box-sizing: border-box;                /* EN: width includes padding and border | AR: العرض يشمل الحشو والحدود */
+}

@@ -1,29 +1,27 @@
-
-
-body { /* selects the whole page.*/
-    min-height: 5000px; /* Makes the page very tall, so you can scroll down. */
+body { 
+    min-height: 5000px;          /* EN: makes page very tall for scrolling | AR: يجعل الصفحة طويلة جداً للتمرير */
 }
 
 div {
-    color: white; /* Text color becomes white. */
-    width: 100px; /* Div is 100 pixels wide */
-    padding: 10px; /* Adds 10px space inside the div around text. */
-    position: absolute; /* the div is positioned manually using top, left, etc., relative to the nearest positioned parent (or the page). */
+    color: white;                /* EN: text color white | AR: لون النص أبيض */
+    width: 100px;               /* EN: set width to 100px | AR: تحديد العرض 100 بكسل */
+    padding: 10px;              /* EN: space inside element | AR: مسافة داخل العنصر */
+    position: absolute;         /* EN: position element manually on page | AR: تحديد موقع العنصر يدوياً */
 }
 
 .one {
-    background-color: red;
-    left: 20px;
-    top: 20px;
-    z-index: 3; /* controls stack order. This element appears above elements with lower z-index */
+    background-color: red;      /* EN: red background | AR: خلفية حمراء */
+    left: 20px;                /* EN: move 20px from left | AR: إزاحة 20 بكسل من اليسار */
+    top: 20px;                 /* EN: move 20px from top | AR: إزاحة 20 بكسل من الأعلى */
+    z-index: 3;                /* EN: stack order (front/back) | AR: ترتيب الطبقات (أمام/خلف) */
 }
 
 .tow {
-    background-color: green;
-    left: 15px;
-    top: 15px;
+    background-color: green;    /* EN: green background | AR: خلفية خضراء */
+    left: 15px;                /* EN: 15px from left | AR: 15 بكسل من اليسار */
+    top: 15px;                 /* EN: 15px from top | AR: 15 بكسل من الأعلى */
 }
 
 .three {
-    background-color: blue;
+    background-color: blue;     /* EN: blue background | AR: خلفية زرقاء */
 }

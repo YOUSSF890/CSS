@@ -1,12 +1,26 @@
 div {
-    background-color: aqua; /* Sets the background color of the div to aqua. */
-    padding: 10px; /* Adds 10px space inside the div between the border and the text. */
-    width: 200px; /* Sets the div width to 200 pixels */
-    white-space: nowrap; /* Prevents the text from moving to the next line */
-    overflow: hidden; /* Hides any text that goes outside the div */
-    text-overflow: ellipsis; /* Shows ... when the text is too long to fit. */
+    background-color: aqua;      
+    /* EN: aqua background color | AR: خلفية لونها سماوي */
+
+    padding: 10px;               
+    /* EN: inner space 10px | AR: مسافة داخلية 10 بكسل */
+
+    width: 200px;                
+    /* EN: fixed width 200px | AR: عرض ثابت 200 بكسل */
+
+    white-space: nowrap;         
+    /* EN: text stays in one line | AR: يمنع النص من النزول لسطر جديد */
+
+    overflow: hidden;            
+    /* EN: hide extra text outside box | AR: إخفاء النص الزائد خارج الصندوق */
+
+    text-overflow: ellipsis;    
+    /* EN: show "..." when text is cut | AR: إظهار ... عند قص النص */
 }
 
-div:hover { /* Applies the style when the mouse is over the div */
-    overflow: visible; /* The hidden text becomes visible outside the div. */
+div:hover {                     
+    /* EN: when mouse is over div | AR: عند مرور الماوس فوق العنصر */
+
+    overflow: visible;          
+    /* EN: show hidden text outside box | AR: إظهار النص المخفي خارج الصندوق */
 }

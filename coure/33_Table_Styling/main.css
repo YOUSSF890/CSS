@@ -1,22 +1,19 @@
-
-
 table {
-    width: 100%;
-    border: 2px solid #2f2c2c; 
-    border-spacing: 0px;
+    width: 100%;                        /* EN: table takes full width | AR: الجدول يأخذ كامل العرض */
+    border: 2px solid #2f2c2c;          /* EN: outer border around table | AR: إطار خارجي حول الجدول */
+    border-spacing: 0px;                /* EN: remove space between cells | AR: إزالة المسافة بين الخلايا */
 }
 
-table td{
-    padding: 15px;
-    background-color: antiquewhite;
-    border: 1px solid #7b7474; 
-
+table td {
+    padding: 15px;                      /* EN: space inside each cell | AR: مسافة داخل كل خلية */
+    background-color: antiquewhite;     /* EN: light beige background | AR: خلفية بيج فاتحة */
+    border: 1px solid #7b7474;          /* EN: border around each cell | AR: إطار لكل خلية */
 }
 
 table thead td {
-    background-color:rgb(172, 242, 219);
-    color: rgb(29, 123, 205);
-    font-weight: bold;
-    text-align: center;
-    border-color: rgb(134, 229, 201);
-} 
+    background-color: rgb(172, 242, 219); /* EN: light green-blue background | AR: خلفية أخضر مزرق فاتح */
+    color: rgb(29, 123, 205);             /* EN: blue text color | AR: لون النص أزرق */
+    font-weight: bold;                    /* EN: make text bold | AR: جعل النص عريض */
+    text-align: center;                   /* EN: center text inside cell | AR: توسيط النص داخل الخلية */
+    border-color: rgb(134, 229, 201);     /* EN: change border color | AR: تغيير لون الإطار */
+}

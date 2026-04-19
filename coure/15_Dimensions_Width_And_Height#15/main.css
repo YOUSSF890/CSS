@@ -1,9 +1,11 @@
 div {
-    background-color: red;
-    padding:10px;
-    color: aqua;
-    max-width: 300px;
-    min-width: 100px;
-    max-height: 100px;
-    min-height: 100px;
+    background-color: red;        /* EN: red background | AR: خلفية حمراء */
+    padding: 10px;               /* EN: inner space | AR: مسافة داخلية */
+    color: aqua;                /* EN: text color aqua | AR: لون النص سماوي */
+
+    max-width: 300px;           /* EN: max width allowed | AR: أقصى عرض */
+    min-width: 100px;           /* EN: minimum width | AR: أقل عرض */
+
+    max-height: 100px;          /* EN: max height allowed | AR: أقصى ارتفاع */
+    min-height: 100px;          /* EN: minimum height | AR: أقل ارتفاع */
 }

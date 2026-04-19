@@ -1,6 +1,6 @@
 div {
-    width: 150px;
-    height:150px;
-    background-color: #eee;
-    overflow: auto;
+    width: 150px;              /* EN: set width to 150px | AR: تحديد العرض 150 بكسل */
+    height: 150px;             /* EN: set height to 150px | AR: تحديد الارتفاع 150 بكسل */
+    background-color: #eee;    /* EN: light gray background | AR: خلفية رمادي فاتح */
+    overflow: auto;            /* EN: add scrollbars if content overflows | AR: إظهار شريط تمرير عند زيادة المحتوى */
 }

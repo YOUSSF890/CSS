@@ -1,51 +1,51 @@
 .parent {
-    margin-bottom: 20px; /* يضيف مسافة 20px أسفل العنصر */
-    overflow: hidden; /* يخفي أي محتوى يخرج خارج حدود العنصر ويحل مشكلة float */
+    margin-bottom: 20px;        /* EN: add 20px space below element | AR: يضيف مسافة 20 بكسل أسفل العنصر */
+    overflow: hidden;           /* EN: hide overflow and fix float issue | AR: يخفي المحتوى الزائد ويحل مشكلة float */
 }
 
 .one {
-    background-color: #eee; /* يجعل لون الخلفية رمادي فاتح */
-    position: relative; /* يجعل العناصر المطلقة position:absolute تتموضع بالنسبة لهذا العنصر */
-    padding: 10px; /* يضيف مسافة داخلية بين المحتوى وحدود العنصر */
-    width: 600px; /* يحدد عرض العنصر بـ 600px */
-    float: left; /* يجعل العنصر يطفو إلى اليسار */
+    background-color: #eee;     /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    position: relative;         /* EN: absolute elements use this as reference | AR: العناصر المطلقة تتموضع بالنسبة لهذا العنصر */
+    padding: 10px;              /* EN: space inside the element | AR: مسافة داخلية بين المحتوى والحدود */
+    width: 600px;               /* EN: element width = 600px | AR: عرض العنصر 600 بكسل */
+    float: left;                /* EN: move element to the left | AR: يجعل العنصر يطفو إلى اليسار */
 }
 
 .user {
-    background-color: #eee; /* يجعل خلفية العنصر رمادي فاتح */
-    padding: 10px; /* يضيف مسافة داخلية حول المحتوى */
-    width: 50px; /* يحدد عرض العنصر بـ 50px */
-    margin-right: 20px; /* يضيف مسافة 20px من الجهة اليمنى */
-    height: 55.5px; /* يحدد ارتفاع العنصر */
-    float: left; /* يجعل العنصر يطفو إلى اليسار */
-    font-size: 50px; /* يجعل حجم الخط كبير */
-    text-align: center; /* يجعل النص في وسط العنصر أفقياً */
+    background-color: #eee;     /* EN: light gray background | AR: خلفية رمادية فاتحة */
+    padding: 10px;              /* EN: space inside element | AR: مسافة داخلية حول المحتوى */
+    width: 50px;                /* EN: width = 50px | AR: عرض العنصر 50 بكسل */
+    margin-right: 20px;         /* EN: space on the right side | AR: مسافة من الجهة اليمنى */
+    height: 55.5px;             /* EN: element height | AR: ارتفاع العنصر */
+    float: left;                /* EN: float element to the left | AR: يجعل العنصر يطفو إلى اليسار */
+    font-size: 50px;            /* EN: large text size | AR: حجم خط كبير */
+    text-align: center;         /* EN: center text horizontally | AR: توسيط النص أفقياً */
 }
 
 hr {
-    margin: 20px 0; /* يضيف مسافة 20px فوق وتحت الخط */
+    margin: 20px 0;             /* EN: space above and below the line | AR: مسافة فوق وتحت الخط */
 }
 
 .one::after {
-    content: ""; /* ينشئ عنصر وهمي بعد العنصر */
-    position: absolute; /* يحدد موقعه بالنسبة للعنصر الأب الذي لديه position */
-    width: 5px; /* عرض الخط 5px */
-    height: 100%; /* ارتفاعه يساوي ارتفاع العنصر */
-    right: -8px; /* يضعه خارج العنصر قليلاً من اليمين */
-    top: 0; /* يبدأ من أعلى العنصر */
-    background-color: green; /* يجعل لون الخط أخضر */
+    content: "";                /* EN: create empty pseudo element after element | AR: إنشاء عنصر وهمي بعد العنصر */
+    position: absolute;         /* EN: position relative to parent element | AR: يتموضع بالنسبة للعنصر الأب */
+    width: 5px;                 /* EN: width of the line | AR: عرض الخط */
+    height: 100%;               /* EN: height equal to element height | AR: ارتفاعه يساوي ارتفاع العنصر */
+    right: -8px;                /* EN: place slightly outside on the right | AR: وضعه خارج العنصر قليلاً من اليمين */
+    top: 0;                     /* EN: start from the top | AR: يبدأ من أعلى العنصر */
+    background-color: green;    /* EN: green color | AR: لون أخضر */
 }
 
 .one::before {
-    content: ""; /* ينشئ عنصر وهمي قبل العنصر */
-    width: 0; /* العرض صفر لإنشاء شكل مثلث */
-    height: 0; /* الارتفاع صفر لإنشاء مثلث باستخدام border */
-    background-color: white; /* لون الخلفية */
-    position: absolute; /* يحدد موقعه بالنسبة للعنصر الأب */
-    left: -20px; /* يضعه خارج العنصر من اليسار */
-    top: 50%; /* يضعه في منتصف العنصر عمودياً */
-    margin-top: -10px; /* يحركه قليلاً للأعلى ليصبح في المنتصف تماماً */
-    border-width: 10px; /* حجم حدود المثلث */
-    border-style: solid; /* يجعل الحدود مرئية */
-    border-color: transparent rgb(31, 232, 61) transparent transparent; /* يصنع مثلث أخضر باتجاه اليمين */
+    content: "";                /* EN: create pseudo element before element | AR: إنشاء عنصر وهمي قبل العنصر */
+    width: 0;                   /* EN: width zero to create triangle | AR: عرض صفر لإنشاء مثلث */
+    height: 0;                  /* EN: height zero for triangle shape | AR: ارتفاع صفر لإنشاء مثلث */
+    background-color: white;   /* EN: background color | AR: لون الخلفية */
+    position: absolute;         /* EN: positioned relative to parent | AR: يتموضع بالنسبة للعنصر الأب */
+    left: -20px;                /* EN: place outside on the left | AR: وضعه خارج العنصر من اليسار */
+    top: 50%;                   /* EN: vertical middle of element | AR: منتصف العنصر عمودياً */
+    margin-top: -10px;          /* EN: adjust upward to center perfectly | AR: تحريك للأعلى ليكون في المنتصف */
+    border-width: 10px;         /* EN: border size for triangle | AR: حجم حدود المثلث */
+    border-style: solid;        /* EN: make borders visible | AR: جعل الحدود مرئية */
+    border-color: transparent rgb(31, 232, 61) transparent transparent; /* EN: create green triangle pointing right | AR: إنشاء مثلث أخضر باتجاه اليمين */
 }

@@ -3,10 +3,11 @@
     text Transformation
 */
 
+div {
+    background-color: #f9f9f9;   /* EN: light gray background | AR: خلفية رمادي فاتح */
 
-div{
-    background-color: #f9f9f9;
-    /* text-decoration: line-through; */
-    /* text-decoration: underline; */
-    text-decoration: overline ;
+    /* text-decoration: line-through; */ /* EN: line through text | AR: خط في وسط النص */
+    /* text-decoration: underline; */    /* EN: line under text | AR: خط تحت النص */
+
+    text-decoration: overline;         /* EN: line above text | AR: خط فوق النص */
 }
