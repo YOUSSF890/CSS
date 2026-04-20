@@ -1,0 +1,3 @@
+.one {                                  /* EN: element with class one | AR: عنصر يحمل الكلاس one */
+  background-color: #EEE !important;    /* EN: set background to light gray and force it to override all other styles | AR: تعيين خلفية رمادية فاتحة وإجبارها على تجاوز كل الأنماط الأخرى */
+}                                       /* EN: end of rule | AR: نهاية القاعدة */

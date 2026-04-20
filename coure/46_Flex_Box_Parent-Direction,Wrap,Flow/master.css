@@ -1,0 +1,48 @@
+/*
+  Flexible Box                                /* EN: Flexbox layout system | AR: نظام تخطيط Flexbox
+  For Parent                                  /* EN: Properties applied on parent | AR: خصائص تُطبق على العنصر الأب
+  - display: flex => To Start Flexible Box    /* EN: Enable flex layout | AR: تفعيل نظام flex
+  - flex-direction: row => Default Value      /* EN: Items in row by default | AR: العناصر في صف (افتراضي)
+  - flex-wrap: nowrap => Default Value        /* EN: No wrapping by default | AR: بدون نزول لسطر جديد
+  - flex-flow: [Flex-Direction] + [Flex-Wrap] /* EN: Short for direction + wrap | AR: اختصار للاتجاه + الالتفاف
+*/
+
+* {
+  -webkit-box-sizing: border-box;             /* EN: Include padding/border in width (Chrome/Safari) | AR: حساب الحشوة والحدود داخل العرض */
+  -moz-box-sizing: border-box;                /* EN: Same for Firefox | AR: نفس الشيء في فايرفوكس */
+  box-sizing: border-box;                     /* EN: Standard property | AR: الخاصية القياسية */
+}
+
+.flex {                                       /* EN: Container with flex | AR: حاوية تستخدم flex */
+  background-color: #eee;                     /* EN: Light gray background | AR: خلفية رمادية فاتحة */
+  width: 600px;                               /* EN: Fixed width | AR: عرض ثابت */
+  padding: 20px;                              /* EN: Inner spacing | AR: مسافة داخلية */
+  margin: 20px auto;                          /* EN: Center horizontally | AR: توسيط العنصر */
+  display: flex;                              /* EN: Activate flexbox | AR: تفعيل flex */
+  flex-direction: column;                     /* EN: Items stacked vertically | AR: العناصر عمودية */
+}
+
+.flex div {                                   /* EN: Children inside flex | AR: العناصر داخل flex */
+  background-color: #f00;                     /* EN: Red background | AR: خلفية حمراء */
+  color: white;                               /* EN: White text | AR: نص أبيض */
+  width: 25%;                                 /* EN: Take 25% of container width | AR: عرض 25% من الحاوية */
+  text-align: center;                         /* EN: Center text | AR: توسيط النص */
+  padding: 20px;                              /* EN: Inner spacing | AR: مسافة داخلية */
+}
+
+.float {                                      /* EN: Container using float | AR: حاوية تستخدم float */
+  overflow: hidden;                           /* EN: Clear floats | AR: حل مشكلة float (إخفاء الزائد) */
+  background-color: #eee;                     /* EN: Light gray background | AR: خلفية رمادية */
+  width: 600px;                               /* EN: Fixed width | AR: عرض ثابت */
+  padding: 20px;                              /* EN: Inner spacing | AR: مسافة داخلية */
+  margin: 20px auto;                          /* EN: Center horizontally | AR: توسيط */
+}
+
+.float div {                                  /* EN: Children inside float | AR: العناصر داخل float */
+  background-color: #f00;                     /* EN: Red background | AR: خلفية حمراء */
+  color: white;                               /* EN: White text | AR: نص أبيض */
+  float: right;                               /* EN: Float elements to right | AR: جعل العناصر تطفو لليمين */
+  width: 25%;                                 /* EN: Take 25% width | AR: عرض 25% */
+  text-align: center;                         /* EN: Center text | AR: توسيط النص */
+  padding: 20px;                              /* EN: Inner spacing | AR: مسافة داخلية */
+}

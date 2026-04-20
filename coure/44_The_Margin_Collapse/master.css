@@ -1,0 +1,45 @@
+/*
+  The Margin Collapse                    /* EN: topic is margin collapse | AR: الموضوع هو تداخل الهوامش
+  [1] Only Vertical Margin Collapse      /* EN: only top/bottom margins collapse | AR: التداخل فقط عمودي
+  [2] Bigger Margin Wins                /* EN: larger margin is used | AR: الهامش الأكبر يفوز
+  [3] Margin Collapsing With Elements Without Anything Between /* EN: collapse if no space between elements | AR: يحدث إذا لا يوجد فاصل 
+  [4] Nesting Does Not Prevent Collapse /* EN: nesting doesn't stop it | AR: التداخل لا يتوقف بسبب التداخل 
+*/
+
+.parent {                               /* EN: parent container | AR: العنصر الأب */
+  overflow: hidden;                     /* EN: fix float + hide overflow | AR: حل مشكلة float وإخفاء الزائد */
+  margin: auto;                         /* EN: center horizontally | AR: توسيط أفقي */
+  width: 400px;                         /* EN: width = 400px | AR: العرض 400 */
+  height: 200px;                        /* EN: height = 200px | AR: الارتفاع 200 */
+  padding: 10px;                        /* EN: inner space | AR: مسافة داخلية */
+  background-color: #eee;               /* EN: light gray background | AR: خلفية رمادية */
+}
+
+.parent .one,
+.parent .two {                          /* EN: select .one and .two inside parent | AR: اختيار .one و .two داخل الأب */
+  float: left;                          /* EN: move to left | AR: جعل العناصر تذهب لليسار */
+  width: 50%;                           /* EN: half width each | AR: نصف العرض لكل عنصر */
+  height: 100%;                         /* EN: full parent height | AR: نفس ارتفاع الأب */
+}
+
+.one {                                  /* EN: class one | AR: الكلاس one */
+  background-color: #ddd;               /* EN: gray background | AR: خلفية رمادية */
+}
+
+.two {                                  /* EN: class two | AR: الكلاس two */
+  background-color: #aaa;               /* EN: darker gray | AR: رمادي أغمق */
+}
+
+.up {                                   /* EN: top box | AR: الصندوق العلوي */
+  background-color: red;                /* EN: red background | AR: خلفية حمراء */
+  color: white;                         /* EN: white text | AR: نص أبيض */
+  height: 80px;                         /* EN: height = 80px | AR: الارتفاع 80 */
+  margin-bottom: 40px;                  /* EN: space below | AR: مسافة تحت */
+}
+
+.down {                                 /* EN: bottom box | AR: الصندوق السفلي */
+  background-color: green;              /* EN: green background | AR: خلفية خضراء */
+  color: white;                         /* EN: white text | AR: نص أبيض */
+  height: 80px;                         /* EN: height = 80px | AR: الارتفاع 80 */
+  margin-top: 40px;                     /* EN: space above | AR: مسافة فوق */
+}

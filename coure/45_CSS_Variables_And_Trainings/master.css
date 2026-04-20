@@ -1,0 +1,39 @@
+/*
+  CSS Variables                         /* EN: Define reusable values in CSS | AR: تعريف متغيرات قابلة لإعادة الاستخدام 
+  - Global Variable                     /* EN: Variables available everywhere | AR: متغيرات متاحة في كل الصفحة 
+  - Local Variable                      /* EN: Variables limited to a selector | AR: متغيرات داخل عنصر معين فقط 
+  var(Variable Name, Fall Back Value)   /* EN: Use variable with optional fallback | AR: استخدام المتغير مع قيمة احتياطية 
+*/
+
+:root {                                  /* EN: Root element (global scope) | AR: العنصر الجذر (نطاق عام) */
+  --mainColor: blue;                     /* EN: Define global variable (color) | AR: تعريف متغير عام للون */
+  --mainPadding: 10px;                   /* EN: Define global variable (padding) | AR: تعريف متغير عام للحشوة */
+}
+
+.main {                                  /* EN: Select element with class "main" | AR: اختيار عنصر بالكلاس main */
+  background-color: var(--mainColor, black); /* EN: Use variable, fallback black if not found | AR: استخدام المتغير، وإن لم يوجد يستعمل الأسود */
+  color: white;                          /* EN: Set text color to white | AR: جعل لون النص أبيض */
+  padding: calc(20px + var(--mainPadding)); /* EN: Add 20px + variable padding | AR: حساب الحشوة (20px + المتغير) */
+}
+
+h2 {                                     /* EN: Select all h2 elements | AR: اختيار جميع عناصر h2 */
+  color: var(--mainColor);               /* EN: Text color from variable | AR: لون النص من المتغير */
+  background-color: #eee;                /* EN: Light gray background | AR: خلفية رمادية فاتحة */
+  padding: var(--mainPadding);           /* EN: Padding from variable | AR: الحشوة من المتغير */
+}
+
+p {                                      /* EN: Select all paragraph elements | AR: اختيار جميع عناصر p */
+  color: var(--mainColor);               /* EN: Text color from variable | AR: لون النص من المتغير */
+  border: 2px solid var(--mainColor);    /* EN: Border with variable color | AR: حد بلون المتغير */
+  padding: var(--mainPadding);           /* EN: Padding from variable | AR: الحشوة من المتغير */
+}
+
+a:hover {                                /* EN: When mouse over link | AR: عند مرور الماوس على الرابط */
+  color: var(--mainColor);               /* EN: Change color using variable | AR: تغيير اللون باستخدام المتغير */
+}
+
+.local {                                 /* EN: Select element with class "local" | AR: اختيار عنصر بالكلاس local */
+  --mainColor: black;                    /* EN: Local variable overrides global | AR: متغير محلي يغيّر القيمة العامة */
+  background-color: var(--mainColor);    /* EN: Background uses local variable | AR: الخلفية تستخدم المتغير المحلي */
+  color: white;                          /* EN: Text color white | AR: لون النص أبيض */
+}
